@@ -12,16 +12,16 @@ const ThankYou = () => {
           <Heart className="w-12 h-12 text-primary fill-primary" />
         </div>
         <h1 className="text-4xl font-bold text-foreground">
-          Thank You!
+          Hvala Vam!
         </h1>
         <p className="text-xl text-muted-foreground">
-          We've received your message and will get back to you as soon as possible.
+          Primili smo vašu poruku i javićemo vam se što je pre moguće.
         </p>
         <p className="text-muted-foreground">
-          Usually within 24 hours.
+          Obično u roku od 24 sata.
         </p>
         <Button size="lg" onClick={() => navigate("/")} className="mt-6">
-          Back to Home
+          Nazad na Početnu
         </Button>
       </div>
     </div>

@@ -12,16 +12,16 @@ const AppointmentConfirmation = () => {
           <CheckCircle className="w-12 h-12 text-primary" />
         </div>
         <h1 className="text-4xl font-bold text-foreground">
-          Appointment Confirmed!
+          Termin Potvrđen!
         </h1>
         <p className="text-xl text-muted-foreground">
-          Thank you for booking with Dr. Smith Dental Care. We've sent a confirmation email with all the details.
+          Hvala što ste zakazali termin u Dr. Smith Stomatološkoj Ordinaciji. Poslali smo vam email sa svim detaljima.
         </p>
         <p className="text-muted-foreground">
-          We look forward to seeing you soon!
+          Radujemo se što ćemo vas uskoro videti!
         </p>
         <Button size="lg" onClick={() => navigate("/")} className="mt-6">
-          Back to Home
+          Nazad na Početnu
         </Button>
       </div>
     </div>

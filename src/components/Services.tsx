@@ -5,23 +5,23 @@ const Services = () => {
   const services = [
     {
       icon: CheckCircle,
-      title: "General Check-ups",
-      description: "Comprehensive dental examinations and cleanings to maintain optimal oral health.",
+      title: "Opšti Pregledi",
+      description: "Sveobuhvatni stomatološki pregledi i čišćenja za održavanje optimalne oralnog zdravlja.",
     },
     {
       icon: Sparkles,
-      title: "Teeth Whitening",
-      description: "Professional whitening treatments for a brighter, more confident smile.",
+      title: "Izbeljivanje Zuba",
+      description: "Profesionalni tretmani izbeljivanja za svetliji, samopouzdaniji osmeh.",
     },
     {
       icon: Smile,
-      title: "Dental Implants",
-      description: "Permanent tooth replacement solutions that look and feel natural.",
+      title: "Zubni Implanti",
+      description: "Trajne solucije za zamenu zuba koje izgledaju i osećaju se prirodno.",
     },
     {
       icon: AlertCircle,
-      title: "Emergency Care",
-      description: "Prompt treatment for dental emergencies, including same-day appointments.",
+      title: "Hitna Pomoć",
+      description: "Brzi tretman za stomatološke hitne slučajeve, uključujući termine istog dana.",
     },
   ];
 
@@ -30,10 +30,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Our Services
+            Naše Usluge
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive dental care tailored to your needs
+            Sveobuhvatna stomatološka nega prilagođena vašim potrebama
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

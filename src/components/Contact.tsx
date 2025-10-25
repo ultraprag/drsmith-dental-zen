@@ -30,10 +30,10 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Get In Touch
+            Stupite u Kontakt
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Have questions? We'd love to hear from you.
+            Imate pitanja? Rado ćemo vas čuti.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -41,13 +41,13 @@ const Contact = () => {
             <CardContent className="p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
-                  <Label htmlFor="contact-name">Name</Label>
+                  <Label htmlFor="contact-name">Ime</Label>
                   <Input
                     id="contact-name"
                     required
                     value={formData.name}
                     onChange={(e) => handleChange("name", e.target.value)}
-                    placeholder="Your name"
+                    placeholder="Vaše ime"
                   />
                 </div>
                 <div className="space-y-2">
@@ -58,22 +58,22 @@ const Contact = () => {
                     required
                     value={formData.email}
                     onChange={(e) => handleChange("email", e.target.value)}
-                    placeholder="your@email.com"
+                    placeholder="vas@email.com"
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">Poruka</Label>
                   <Textarea
                     id="message"
                     required
                     value={formData.message}
                     onChange={(e) => handleChange("message", e.target.value)}
-                    placeholder="How can we help you?"
+                    placeholder="Kako možemo da vam pomognemo?"
                     rows={5}
                   />
                 </div>
                 <Button type="submit" className="w-full" size="lg">
-                  Send Message
+                  Pošaljite Poruku
                 </Button>
               </form>
             </CardContent>
@@ -86,9 +86,9 @@ const Contact = () => {
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Address</h3>
+                    <h3 className="font-semibold mb-1">Adresa</h3>
                     <p className="text-muted-foreground">
-                      123 Main Street<br />
+                      Glavna ulica 123<br />
                       Springfield, IL 62701
                     </p>
                   </div>
@@ -98,8 +98,8 @@ const Contact = () => {
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Phone</h3>
-                    <p className="text-muted-foreground">(555) 123-4567</p>
+                    <h3 className="font-semibold mb-1">Telefon</h3>
+                    <p className="text-muted-foreground">011 123 4567</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

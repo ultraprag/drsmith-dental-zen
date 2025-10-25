@@ -4,18 +4,18 @@ import { Card, CardContent } from "@/components/ui/card";
 const Reviews = () => {
   const reviews = [
     {
-      name: "Sarah Johnson",
-      text: "Dr. Smith and the team are amazing! They made me feel comfortable during my entire visit. The office is modern and clean, and the staff is incredibly friendly.",
+      name: "Marija Jovanović",
+      text: "Dr. Smith i tim su neverovatni! Učinili su da se osećam prijatno tokom cele posete. Ordinacija je moderna i čista, a osoblje je neverovatno ljubazno.",
       rating: 5,
     },
     {
-      name: "Michael Chen",
-      text: "Best dental experience I've ever had. The technology they use is top-notch, and Dr. Smith really takes the time to explain everything. Highly recommend!",
+      name: "Nikola Petrović",
+      text: "Najbolje stomatološko iskustvo koje sam ikada imao. Tehnologija koju koriste je vrhunska, a dr Smith zaista odvaja vreme da objasni sve. Toplo preporučujem!",
       rating: 5,
     },
     {
-      name: "Emily Rodriguez",
-      text: "I used to be terrified of dentists, but Dr. Smith's gentle approach has completely changed my perspective. The entire team is wonderful and professional.",
+      name: "Ana Milić",
+      text: "Nekada sam se plašila stomatologa, ali nežan pristup dr Smitha je potpuno promenio moju perspektivu. Ceo tim je divan i profesionalan.",
       rating: 5,
     },
   ];
@@ -25,10 +25,10 @@ const Reviews = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            What Our Patients Say
+            Šta Naši Pacijenti Kažu
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it
+            Ne verujte samo nama na reč
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6">

@@ -15,20 +15,20 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight">
-              Bright Smiles Start Here
+              Blistavi Osmesi Počinju Ovde
             </h1>
             <p className="text-xl text-muted-foreground">
-              Professional dental care in a comfortable, modern environment. Your smile is our priority.
+              Profesionalna stomatološka nega u prijatnom, modernom okruženju. Vaš osmeh je naš prioritet.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" onClick={scrollToAppointment}>
-                Book Appointment
+                Zakažite Termin
               </Button>
               <Button size="lg" variant="outline" onClick={() => {
                 const element = document.querySelector("#about");
                 if (element) element.scrollIntoView({ behavior: "smooth" });
               }}>
-                Learn More
+                Saznajte Više
               </Button>
             </div>
           </div>
@@ -42,7 +42,7 @@ const Hero = () => {
             </div>
             <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-lg">
               <div className="text-4xl font-bold">15+</div>
-              <div className="text-sm">Years Experience</div>
+              <div className="text-sm">Godina Iskustva</div>
             </div>
           </div>
         </div>

@@ -37,7 +37,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-muted-foreground text-center">
-            © 2025 Dr. Smith Dental Care. All rights reserved.
+            © 2025 Dr. Smith Stomatološka Ordinacija. Sva prava zadržana.
           </p>
         </div>
       </div>

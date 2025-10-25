@@ -16,11 +16,11 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Reviews", href: "#reviews" },
-    { label: "Contact", href: "#contact" },
+    { label: "Početna", href: "#home" },
+    { label: "O Nama", href: "#about" },
+    { label: "Usluge", href: "#services" },
+    { label: "Utisci", href: "#reviews" },
+    { label: "Kontakt", href: "#contact" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -53,7 +53,7 @@ const Navigation = () => {
               </button>
             ))}
             <Button onClick={() => scrollToSection("#appointment")}>
-              Book Appointment
+              Zakažite Termin
             </Button>
           </div>
 
@@ -84,7 +84,7 @@ const Navigation = () => {
                 onClick={() => scrollToSection("#appointment")}
                 className="w-full"
               >
-                Book Appointment
+                Zakažite Termin
               </Button>
             </div>
           </div>
