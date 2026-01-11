@@ -5,7 +5,7 @@ const Hours = () => {
   const schedule = [
     { day: "Ponedjeljak - Petak", hours: "07:00 - 20:00" },
     { day: "Subota", hours: "07:00 - 20:00" },
-    { day: "Nedjelja", hours: "07:00 - 18:00" },
+    { day: "Nedelja", hours: "07:00 - 18:00" },
   ];
 
   return (
