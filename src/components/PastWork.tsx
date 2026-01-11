@@ -11,14 +11,14 @@ import anteriorAfter1 from "@/assets/losi_zubi.jpg";
 const PastWork = () => {
   const works = [
     {
-      title: "Novi Zubi",
+      title: "Krunice",
       description:
         "Transformacija postignuta korišćenjem Emax krunica i faseta, vraćajući prirodnu boju, simetriju i harmoniju desni.",
       before: anteriorBefore,
       after: anteriorAfter,
     },
     {
-      title: "Novi Zubi 1",
+      title: "Protetika",
       description:
         "Povratak prirodnom osmehu uz nežnu i preciznu stomatološku intervenciju, naglašavajući zdravlje i estetiku zuba.",
       before: anteriorBefore1,
