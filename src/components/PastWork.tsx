@@ -35,8 +35,8 @@ const PastWork = () => {
             Rezultati Našeg Rada
           </h2>
           <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
-            Pogledajte neverovatne transformacije naših pacijenata —
-            stvarne priče osmeha koji inspirišu.
+            Pogledajte nevjerovatne transformacije naših pacijenata —
+            stvarne priče osmijeha koji inspirišu.
           </p>
         </div>
 

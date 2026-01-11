@@ -6,17 +6,17 @@ const Services = () => {
     {
       icon: CheckCircle,
       title: "Opšti Pregledi",
-      description: "Sveobuhvatni stomatološki pregledi i čišćenja za održavanje optimalne oralnog zdravlja.",
+      description: "Sveobuhvatni stomatološki pregledi i čišćenja za održavanje optimalnog oralnog zdravlja.",
     },
     {
       icon: Sparkles,
-      title: "Izbeljivanje Zuba",
-      description: "Profesionalni tretmani izbeljivanja za svetliji, samopouzdaniji osmeh.",
+      title: "Izbjeljivanje Zuba",
+      description: "Profesionalni tretmani izbjeljivanja za svjetliji, samopouzdaniji osmijeh.",
     },
     {
       icon: Smile,
       title: "Zubni Implanti",
-      description: "Trajne solucije za zamenu zuba koje izgledaju i osećaju se prirodno.",
+      description: "Trajne solucije za zamjenu zuba koje izgledaju i osjećaju se prirodno.",
     },
     {
       icon: AlertCircle,
@@ -33,7 +33,7 @@ const Services = () => {
             Naše Usluge
           </h2>
           <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Sveobuhvatna stomatološka nega prilagođena vašim potrebama
+            Sveobuhvatna stomatološka njega prilagođena vašim potrebama
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">

@@ -3,9 +3,9 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Hours = () => {
   const schedule = [
-    { day: "Ponedeljak - Petak", hours: "07:00 - 20:00" },
+    { day: "Ponedjeljak - Petak", hours: "07:00 - 20:00" },
     { day: "Subota", hours: "07:00 - 20:00" },
-    { day: "Nedelja", hours: "07:00 - 18:00" },
+    { day: "Nedjelja", hours: "07:00 - 18:00" },
   ];
 
   return (
@@ -17,7 +17,7 @@ const Hours = () => {
               <Clock className="w-6 h-6 md:w-8 md:h-8 text-primary" />
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 md:mb-4">
-              Radno Vreme
+              Radno Vrijeme
             </h2>
             <p className="text-base md:text-xl text-muted-foreground">
               Tu smo kada nas trebate!
