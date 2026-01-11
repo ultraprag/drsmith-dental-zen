@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import mitrovicImage from "@/assets/mitrovic.jpg";
+import heroImage from "@/assets/hero-dental.jpg";
 import { Stethoscope, Award, Shield, Users } from "lucide-react";
 
 const Hero = () => {
@@ -88,7 +88,7 @@ const Hero = () => {
                   <Users className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground text-base md:text-lg">2000+</div>
+                  <div className="font-semibold text-foreground text-base md:text-lg">500+</div>
                   <div className="text-xs md:text-sm text-muted-foreground">Uspješnih Operacija</div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Hero = () => {
                   <Award className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground text-base md:text-lg">15+</div>
+                  <div className="font-semibold text-foreground text-base md:text-lg">10+</div>
                   <div className="text-xs md:text-sm text-muted-foreground">Godina Iskustva</div>
                 </div>
               </div>
@@ -125,20 +125,15 @@ const Hero = () => {
             <div className="rounded-2xl md:rounded-3xl overflow-hidden shadow-xl md:shadow-2xl ring-1 ring-primary/10 relative transform hover:scale-105 transition-transform duration-700">
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent z-10"></div>
               <img
-                src={mitrovicImage}
-                alt="Dr Aleksandar Mitrović - Specijalista oralne hirurgije"
+                src={heroImage}
+                alt="Moderna stomatološka ordinacija"
                 className="w-full h-[280px] sm:h-[350px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover"
               />
-              {/* Doctor name overlay */}
-              <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6 bg-gradient-to-t from-black/70 to-transparent z-20">
-                <p className="text-white font-semibold text-lg md:text-xl">Dr Aleksandar Mitrović</p>
-                <p className="text-white/80 text-sm md:text-base">Specijalista Oralne Hirurgije</p>
-              </div>
             </div>
 
             {/* Specialty badge - adjusted for mobile */}
             <div className="absolute -bottom-4 -left-2 md:-bottom-6 md:-left-6 bg-primary text-primary-foreground p-4 md:p-6 rounded-xl md:rounded-2xl shadow-xl animate-bounce-slow">
-              <div className="text-2xl md:text-4xl font-bold">500+</div>
+              <div className="text-2xl md:text-4xl font-bold">200+</div>
               <div className="text-xs md:text-sm">Ugrađenih Implantata</div>
             </div>
 
