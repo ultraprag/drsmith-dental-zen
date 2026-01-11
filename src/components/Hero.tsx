@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-extrabold leading-tight text-foreground tracking-tight animate-fade-slide-left">
-              Oralna Hirurgija & Implantologija
+              Oralna Hirurgija i Implantologija
             </h1>
 
             <div className="space-y-2">
