@@ -26,27 +26,27 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20">
+    <section id="services" className="py-12 md:py-20">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 md:mb-4">
             Naše Usluge
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Sveobuhvatna stomatološka nega prilagođena vašim potrebama
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
               <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow">
-                <CardContent className="p-6 space-y-4">
-                  <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center">
-                    <Icon className="w-8 h-8 text-primary" />
+                <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4">
+                  <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-xl md:rounded-2xl flex items-center justify-center">
+                    <Icon className="w-6 h-6 md:w-8 md:h-8 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold">{service.title}</h3>
-                  <p className="text-muted-foreground">{service.description}</p>
+                  <h3 className="text-base md:text-xl font-semibold">{service.title}</h3>
+                  <p className="text-sm md:text-base text-muted-foreground">{service.description}</p>
                 </CardContent>
               </Card>
             );

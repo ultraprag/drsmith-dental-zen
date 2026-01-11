@@ -39,28 +39,28 @@ const Navigation = () => {
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 md:h-20">
           <Logo />
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6 lg:gap-8">
             {navItems.map((item) => (
               <button
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className="text-foreground hover:text-primary transition-colors font-medium text-sm lg:text-base"
               >
                 {item.label}
               </button>
             ))}
-            <Button onClick={() => scrollToSection("#appointment")}>
+            <Button onClick={() => scrollToSection("#appointment")} size="sm" className="lg:text-base">
               Zakažite Termin
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden"
+            className="md:hidden p-2"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -70,20 +70,20 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden pb-4">
-            <div className="flex flex-col gap-4">
+          <div className="md:hidden pb-4 border-t border-border/50">
+            <div className="flex flex-col gap-3 pt-4">
               {navItems.map((item) => (
                 <button
                   key={item.label}
                   onClick={() => scrollToSection(item.href)}
-                  className="text-foreground hover:text-primary transition-colors font-medium text-left"
+                  className="text-foreground hover:text-primary transition-colors font-medium text-left py-2"
                 >
                   {item.label}
                 </button>
               ))}
               <Button
                 onClick={() => scrollToSection("#appointment")}
-                className="w-full"
+                className="w-full mt-2"
               >
                 Zakažite Termin
               </Button>

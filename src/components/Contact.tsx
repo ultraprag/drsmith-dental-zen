@@ -26,20 +26,20 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-12 md:py-20">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 md:mb-4">
             Stupite u Kontakt
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Imate pitanja? Rado ćemo vas čuti.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
           <Card className="border-none shadow-lg">
-            <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="space-y-6">
+            <CardContent className="p-5 md:p-8">
+              <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
                 <div className="space-y-2">
                   <Label htmlFor="contact-name">Ime</Label>
                   <Input
@@ -78,42 +78,42 @@ const Contact = () => {
               </form>
             </CardContent>
           </Card>
-          <div className="space-y-6">
+          <div className="space-y-4 md:space-y-6">
             <Card className="border-none shadow-lg">
-              <CardContent className="p-6 space-y-4">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
+              <CardContent className="p-4 md:p-6 space-y-4">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Adresa</h3>
-                    <p className="text-muted-foreground">
+                    <h3 className="font-semibold mb-1 text-sm md:text-base">Adresa</h3>
+                    <p className="text-muted-foreground text-sm md:text-base">
                       Svetog Sava <br />
                       Zvornik 75400, Bosna a Hercegovina
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-primary" />
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Telefon</h3>
-                    <p className="text-muted-foreground">+381 64 5523 882</p>
+                    <h3 className="font-semibold mb-1 text-sm md:text-base">Telefon</h3>
+                    <p className="text-muted-foreground text-sm md:text-base">+381 64 5523 882</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-primary" />
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">ordinacija.drmitrovic@gmail.com</p>
+                    <h3 className="font-semibold mb-1 text-sm md:text-base">Email</h3>
+                    <p className="text-muted-foreground text-sm md:text-base break-all">ordinacija.drmitrovic@gmail.com</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
-            <div className="rounded-2xl overflow-hidden shadow-lg h-64">
+            <div className="rounded-xl md:rounded-2xl overflow-hidden shadow-lg h-48 md:h-64">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d872.9694263116986!2d19.104723730767123!3d44.38481890182557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1scs!2scz!4v1761390309794!5m2!1scs!2scz"
                 width="100%"
