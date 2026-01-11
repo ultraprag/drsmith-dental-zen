@@ -20,7 +20,7 @@ const Navigation = () => {
     { label: "O Nama", href: "#about" },
     { label: "Usluge", href: "#services" },
     { label: "Radno Vreme", href: "#hours" },
-    { label: "Utisci", href: "#reviews" },
+    { label: "Recenzije", href: "#reviews" },
     { label: "Kontakt", href: "#contact" },
   ];
 
