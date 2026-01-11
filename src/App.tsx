@@ -8,6 +8,7 @@ import AppointmentConfirmation from "./pages/AppointmentConfirmation";
 import ThankYou from "./pages/ThankYou";
 import NotFound from "./pages/NotFound";
 
+
 const queryClient = new QueryClient();
 
 const App = () => (

@@ -88,8 +88,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Adresa</h3>
                     <p className="text-muted-foreground">
-                      Glavna ulica 123<br />
-                      Springfield, IL 62701
+                      Svetog Sava <br />
+                      Zvornik 75400, Bosna a Hercegovina
                     </p>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Telefon</h3>
-                    <p className="text-muted-foreground">011 123 4567</p>
+                    <p className="text-muted-foreground">+381 64 5523 882</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -108,14 +108,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@drsmithdental.com</p>
+                    <p className="text-muted-foreground">ordinacija.drmitrovic@gmail.com</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
             <div className="rounded-2xl overflow-hidden shadow-lg h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.896285397876!2d-89.65003688461838!3d39.78172997944829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8876c6aa29ca2163%3A0x9f0e98f12d2c3f4e!2s123%20Main%20St%2C%20Springfield%2C%20IL%2062701!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d872.9694263116986!2d19.104723730767123!3d44.38481890182557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1scs!2scz!4v1761390309794!5m2!1scs!2scz"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

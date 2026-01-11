@@ -3,13 +3,13 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Hours = () => {
   const schedule = [
-    { day: "Ponedeljak - Petak", hours: "08:00 - 17:00" },
-    { day: "Subota", hours: "09:00 - 13:00" },
-    { day: "Nedelja", hours: "Zatvoreno" },
+    { day: "Ponedeljak - Petak", hours: "07:00 - 20:00" },
+    { day: "Subota", hours: "07:00 - 20:00" },
+    { day: "Nedelja", hours: "07:00 - 18:00" },
   ];
 
   return (
-    <section className="py-20 bg-secondary">
+    <section id="hours" className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
@@ -20,7 +20,7 @@ const Hours = () => {
               Radno Vreme
             </h2>
             <p className="text-xl text-muted-foreground">
-              Tu smo kada nam trebate
+              Tu smo kada nas trebate!
             </p>
           </div>
           <Card className="border-none shadow-lg">

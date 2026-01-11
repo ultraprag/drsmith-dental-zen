@@ -1,48 +1,55 @@
 import { Award, Heart, Users } from "lucide-react";
-import teamPhoto from "@/assets/team-photo.jpg";
+import teamPhoto from "@/assets/mitrovic.jpg";
 
 const About = () => {
   return (
     <section id="about" className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <h2 className="text-4xl font-bold text-foreground">
-              O Dr. Smith Stomatološkoj Ordinaciji
+          {/* Left Column - Text */}
+          <div className="space-y-8 max-w-lg animate-fade-slide-left">
+            <h2 className="text-5xl font-serif font-extrabold text-foreground leading-tight">
+              O Dr. Mitrović Stomatološkoj Ordinaciji
             </h2>
-            <p className="text-lg text-muted-foreground">
-              Sa preko 15 godina iskustva, dr Smith i naš posvećen tim predani su pružanju izuzetne stomatološke nege u toplom, prijatnom okruženju.
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Sa preko 10 godina iskustva, dr Mitrović i naš posvećen tim predani su pružanju izuzetne stomatološke nege u toplom, prijatnom okruženju.
             </p>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-xl text-muted-foreground leading-relaxed">
               Verujemo da svako zaslužuje zdrav i lep osmeh. Naša najsavremenija ordinacija kombinuje najnoviju tehnologiju sa nežnim pristupom usmerenim na pacijenta kako bi osigurali vašu udobnost i zadovoljstvo.
             </p>
-            <div className="grid grid-cols-3 gap-6 pt-6">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Award className="w-8 h-8 text-primary" />
+
+            {/* Highlights */}
+            <div className="grid grid-cols-3 gap-8 pt-6">
+              <div className="text-center p-4 rounded-xl bg-secondary/20 shadow-md hover:shadow-xl transition-all duration-500">
+                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Award className="w-10 h-10 text-primary" />
                 </div>
-                <div className="font-semibold">Izvrsnost</div>
+                <div className="font-semibold text-lg text-foreground">Izvrsnost</div>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Heart className="w-8 h-8 text-primary" />
+              <div className="text-center p-4 rounded-xl bg-secondary/20 shadow-md hover:shadow-xl transition-all duration-500">
+                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Heart className="w-10 h-10 text-primary" />
                 </div>
-                <div className="font-semibold">Briga</div>
+                <div className="font-semibold text-lg text-foreground">Briga</div>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Users className="w-8 h-8 text-primary" />
+              <div className="text-center p-4 rounded-xl bg-secondary/20 shadow-md hover:shadow-xl transition-all duration-500">
+                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Users className="w-10 h-10 text-primary" />
                 </div>
-                <div className="font-semibold">Zajednica</div>
+                <div className="font-semibold text-lg text-foreground">Zajednica</div>
               </div>
             </div>
           </div>
-          <div className="relative">
-            <div className="rounded-3xl overflow-hidden shadow-2xl">
+
+          {/* Right Column - Image */}
+          <div className="relative animate-fade-slide-right">
+            <div className="rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-700 relative">
+              {/* Soft overlay gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
               <img
                 src={teamPhoto}
-                alt="Dr. Smith and dental care team"
-                className="w-full h-auto"
+                alt="Dr. Mitrović"
+                className="w-full h-[1050px] md:h-[550px] object-cover rounded-3xl"
               />
             </div>
           </div>

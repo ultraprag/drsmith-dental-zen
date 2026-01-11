@@ -1,0 +1,58 @@
+/* Custom navigation buttons beside slider */
+.custom-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 2px solid #6ec1e4; /* soft light blue border */
+  color: #6ec1e4;
+  border-radius: 9999px; /* circle */
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+.custom-nav-btn:hover {
+  background-color: #6ec1e4;
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Left/right placement */
+.prev-btn {
+  left: -25px;
+}
+
+.next-btn {
+  right: -25px;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .prev-btn {
+    left: 0;
+  }
+
+  .next-btn {
+    right: 0;
+  }
+}
+
+/* Pagination dots styling */
+.swiper-pagination-bullet {
+  background: #b3e0f5 !important; /* light blue (inactive) */
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #6ec1e4 !important; /* active light blue */
+  transform: scale(1.2);
+  box-shadow: 0 0 6px rgba(110, 193, 228, 0.6);
+}
