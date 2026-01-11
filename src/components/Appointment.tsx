@@ -15,7 +15,7 @@ const Appointment = () => {
               Zakažite Vaš Termin
             </h2>
             <p className="text-base md:text-xl text-muted-foreground">
-              Napravite prvi korak ka zdravijem osmehu
+              Napravite prvi korak ka zdravijem osmijehu
             </p>
           </div>
 

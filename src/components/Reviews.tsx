@@ -11,27 +11,27 @@ const Reviews = () => {
   const reviews = [
     {
       name: "Marija Jovanović",
-      text: "Dr. Mitrović i tim su neverovatni! Učinili su da se osećam prijatno tokom cele posete. Ordinacija je moderna i čista, a osoblje je neverovatno ljubazno.",
+      text: "Dr. Mitrović i tim su nevjerovatni! Učinili su da se osjećam prijatno tokom cijele posjete. Ordinacija je moderna i čista, a osoblje je nevjerovatno ljubazno.",
       rating: 5,
     },
     {
       name: "Nikola Petrović",
-      text: "Najbolje stomatološko iskustvo koje sam ikada imao. Tehnologija koju koriste je vrhunska, a dr Mitrović zaista odvaja vreme da objasni sve. Toplo preporučujem!",
+      text: "Najbolje stomatološko iskustvo koje sam ikada imao. Tehnologija koju koriste je vrhunska, a dr Mitrović zaista odvaja vrijeme da objasni sve. Toplo preporučujem!",
       rating: 5,
     },
     {
       name: "Ana Milić",
-      text: "Nekada sam se plašila stomatologa, ali nežan pristup dr Mitrović je potpuno promenio moju perspektivu. Ceo tim je divan i profesionalan.",
+      text: "Nekada sam se plašila stomatologa, ali nježan pristup dr Mitrović je potpuno promijenio moju perspektivu. Cijeli tim je divan i profesionalan.",
       rating: 5,
     },
     {
       name: "Marko Stanković",
-      text: "Veoma profesionalno osoblje i prijatna atmosfera. Samo bih voleo da je vreme čekanja malo kraće, ali usluga je svakako odlična!",
+      text: "Veoma profesionalno osoblje i prijatna atmosfera. Samo bih volio da je vrijeme čekanja malo kraće, ali usluga je svakako odlična!",
       rating: 4,
     },
     {
       name: "Jelena Ilić",
-      text: "Fenomenalno iskustvo! Sve je besprekorno organizovano, a dr Mitrović je stručan i ljubazan. Moj osmeh nikad nije bio lepši!",
+      text: "Fenomenalno iskustvo! Sve je besprijekorno organizovano, a dr Mitrović je stručan i ljubazan. Moj osmijeh nikad nije bio ljepši!",
       rating: 5,
     },
   ];
@@ -45,7 +45,7 @@ const Reviews = () => {
             Šta Naši Pacijenti Kažu
           </h2>
           <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ne verujte samo nama na reč
+            Ne vjerujte samo nama na riječ
           </p>
         </div>
 
