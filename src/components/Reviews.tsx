@@ -37,30 +37,30 @@ const Reviews = () => {
   ];
 
   return (
-    <section id="reviews" className="py-20">
+    <section id="reviews" className="py-12 md:py-20">
       <div className="container mx-auto px-4 relative">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 md:mb-4">
             Šta Naši Pacijenti Kažu
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Ne verujte samo nama na reč
           </p>
         </div>
 
-        {/* Custom navigation buttons */}
-        <div className="custom-nav-btn prev-btn">
+        {/* Custom navigation buttons - hidden on mobile, shown on larger screens */}
+        <div className="custom-nav-btn prev-btn hidden md:flex">
           <ChevronLeft className="w-7 h-7" />
         </div>
-        <div className="custom-nav-btn next-btn">
+        <div className="custom-nav-btn next-btn hidden md:flex">
           <ChevronRight className="w-7 h-7" />
         </div>
 
         {/* Swiper Slider */}
         <Swiper
           modules={[Navigation, Pagination, A11y]}
-          spaceBetween={20}
+          spaceBetween={16}
           slidesPerView={1}
           navigation={{
             nextEl: ".next-btn",
@@ -68,27 +68,28 @@ const Reviews = () => {
           }}
           pagination={{ clickable: true }}
           breakpoints={{
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
+            640: { slidesPerView: 1, spaceBetween: 16 },
+            768: { slidesPerView: 2, spaceBetween: 20 },
+            1024: { slidesPerView: 3, spaceBetween: 20 },
           }}
           className="!pb-12"
         >
           {reviews.map((review, index) => (
             <SwiperSlide key={index}>
               <Card className="border-none shadow-lg h-full">
-                <CardContent className="p-6 space-y-4">
+                <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4">
                   <div className="flex gap-1">
                     {[...Array(review.rating)].map((_, i) => (
                       <Star
                         key={i}
-                        className="w-5 h-5 fill-primary text-primary"
+                        className="w-4 h-4 md:w-5 md:h-5 fill-primary text-primary"
                       />
                     ))}
                   </div>
-                  <p className="text-muted-foreground italic">
+                  <p className="text-sm md:text-base text-muted-foreground italic">
                     "{review.text}"
                   </p>
-                  <div className="font-semibold text-foreground">
+                  <div className="font-semibold text-foreground text-sm md:text-base">
                     — {review.name}
                   </div>
                 </CardContent>

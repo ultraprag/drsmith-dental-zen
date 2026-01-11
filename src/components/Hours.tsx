@@ -9,30 +9,30 @@ const Hours = () => {
   ];
 
   return (
-    <section id="hours" className="py-20 bg-secondary">
+    <section id="hours" className="py-12 md:py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-12">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Clock className="w-8 h-8 text-primary" />
+          <div className="text-center mb-8 md:mb-12">
+            <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+              <Clock className="w-6 h-6 md:w-8 md:h-8 text-primary" />
             </div>
-            <h2 className="text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 md:mb-4">
               Radno Vreme
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-base md:text-xl text-muted-foreground">
               Tu smo kada nas trebate!
             </p>
           </div>
           <Card className="border-none shadow-lg">
-            <CardContent className="p-8">
-              <div className="space-y-4">
+            <CardContent className="p-5 md:p-8">
+              <div className="space-y-3 md:space-y-4">
                 {schedule.map((item, index) => (
                   <div
                     key={index}
-                    className="flex justify-between items-center py-3 border-b last:border-b-0"
+                    className="flex justify-between items-center py-2 md:py-3 border-b last:border-b-0 gap-4"
                   >
-                    <span className="font-semibold text-foreground">{item.day}</span>
-                    <span className="text-muted-foreground">{item.hours}</span>
+                    <span className="font-semibold text-foreground text-sm md:text-base">{item.day}</span>
+                    <span className="text-muted-foreground text-sm md:text-base whitespace-nowrap">{item.hours}</span>
                   </div>
                 ))}
               </div>
