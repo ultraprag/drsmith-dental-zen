@@ -12,7 +12,7 @@ const About = () => {
               O Dr. Mitrović Stomatološkoj Ordinaciji
             </h2>
             <p className="text-base md:text-xl text-muted-foreground leading-relaxed">
-              Sa preko 10 godina iskustva, dr Mitrović i naš posvećen tim predani su pružanju izuzetne stomatološke nege u toplom, prijatnom okruženju.
+              Dr Mitrović, specijalista za oralnu implantologiju, sa preko 10 godina iskustva vodi naš posvećen tim predan pružanju izuzetne stomatološke nege u toplom, prijatnom okruženju.
             </p>
             <p className="text-base md:text-xl text-muted-foreground leading-relaxed">
               Verujemo da svako zaslužuje zdrav i lep osmeh. Naša najsavremenija ordinacija kombinuje najnoviju tehnologiju sa nežnim pristupom usmerenim na pacijenta kako bi osigurali vašu udobnost i zadovoljstvo.
