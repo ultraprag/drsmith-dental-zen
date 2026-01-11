@@ -43,7 +43,7 @@ const Hero = () => {
 
             <div className="space-y-2">
               <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary font-semibold animate-fade-in-delay">
-                Spec. Oralne Hirurgije Dr Aleksandar Mitrović
+                Sa preko 10 godina iskustva, dr Mitrović specijalista za oralnu implantologiju
               </p>
               <p className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed animate-fade-in-delay">
                 Stručno rješavanje najsloženijih zahvata iz područja oralne hirurgije i implantologije, uz najmodernije tehnike i bezbolne tretmane.
