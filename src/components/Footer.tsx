@@ -9,7 +9,7 @@ const Footer = () => {
           <Logo variant="stacked" />
           <div className="flex gap-4 md:gap-6">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/p/Stomatoloska-ordinacija-Mitrovic-Zvornik-100040874180129/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 md:w-10 md:h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors"
