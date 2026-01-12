@@ -1,5 +1,12 @@
-import { CheckCircle, Sparkles, Smile, AlertCircle } from "lucide-react";
+import { CheckCircle, Sparkles, Smile, AlertCircle, Scissors, Crown } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Services = () => {
   const services = [
@@ -23,6 +30,16 @@ const Services = () => {
       title: "Hitna Pomoć",
       description: "Brzi tretman za stomatološke hitne slučajeve, uključujući termine istog dana.",
     },
+    {
+      icon: Scissors,
+      title: "Hirurške Intervencije",
+      description: "Stručni hirurški zahvati uključujući vađenje zuba, operacije impaktiranih zuba i koštane augmentacije.",
+    },
+    {
+      icon: Crown,
+      title: "Zubna Protetika",
+      description: "Visokokvalitetne cirkon i metalokeramičke krunice za savršenu estetiku i dugotrajnost.",
+    },
   ];
 
   return (
@@ -36,22 +53,37 @@ const Services = () => {
             Sveobuhvatna stomatološka njega prilagođena vašim potrebama
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-          {services.map((service, index) => {
-            const Icon = service.icon;
-            return (
-              <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow">
-                <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4">
-                  <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-xl md:rounded-2xl flex items-center justify-center">
-                    <Icon className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-                  </div>
-                  <h3 className="text-base md:text-xl font-semibold">{service.title}</h3>
-                  <p className="text-sm md:text-base text-muted-foreground">{service.description}</p>
-                </CardContent>
-              </Card>
-            );
-          })}
-        </div>
+        
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-2 md:-ml-4">
+            {services.map((service, index) => {
+              const Icon = service.icon;
+              return (
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <Card className="border-none shadow-lg hover:shadow-xl transition-shadow h-full">
+                    <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4 h-full flex flex-col">
+                      <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-xl md:rounded-2xl flex items-center justify-center shrink-0">
+                        <Icon className="w-6 h-6 md:w-8 md:h-8 text-primary" />
+                      </div>
+                      <h3 className="text-base md:text-xl font-semibold">{service.title}</h3>
+                      <p className="text-sm md:text-base text-muted-foreground flex-grow">{service.description}</p>
+                    </CardContent>
+                  </Card>
+                </CarouselItem>
+              );
+            })}
+          </CarouselContent>
+          <div className="flex justify-center gap-4 mt-6">
+            <CarouselPrevious className="static translate-y-0" />
+            <CarouselNext className="static translate-y-0" />
+          </div>
+        </Carousel>
       </div>
     </section>
   );
