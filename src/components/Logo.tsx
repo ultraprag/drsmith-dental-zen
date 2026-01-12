@@ -20,8 +20,8 @@ const Logo = ({ variant = "horizontal", className = "" }: LogoProps) => {
           <Sparkles className="absolute -top-1 -right-1 w-4 h-4 text-primary fill-primary" />
         </div>
         <div className="text-center">
-          <div className="font-semibold text-foreground text-xs">Specijalistička Ordinacija za</div>
-          <div className="font-semibold text-foreground text-xs">Oralnu Hirurgiju Mitrović</div>
+          <div className="font-semibold text-foreground text-xs">Specijalistička stomatološka</div>
+          <div className="font-semibold text-foreground text-xs">ordinacija Dental Mitrović</div>
         </div>
       </div>
     );
@@ -40,8 +40,8 @@ const Logo = ({ variant = "horizontal", className = "" }: LogoProps) => {
         <Sparkles className="absolute -top-1 -right-1 w-4 h-4 text-primary fill-primary" />
       </div>
       <div className="flex flex-col">
-        <span className="font-semibold text-foreground leading-tight text-sm">Specijalistička Ordinacija za</span>
-        <span className="font-semibold text-foreground leading-tight text-sm">Oralnu Hirurgiju Mitrović</span>
+        <span className="font-semibold text-foreground leading-tight text-sm">Specijalistička stomatološka</span>
+        <span className="font-semibold text-foreground leading-tight text-sm">ordinacija Dental Mitrović</span>
       </div>
     </div>
   );
