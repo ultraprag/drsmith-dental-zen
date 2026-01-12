@@ -15,8 +15,13 @@ const Services = () => {
     },
     {
       icon: Crown,
-      title: "Zubna Protetika",
-      description: "Visokokvalitetne cirkon i metalokeramičke krunice za savršenu estetiku i dugotrajnost.",
+      title: "Estetika",
+      description: "Aplikacija hijaluronskih filera i tretmani botoxom za podmlaživanje i uljepšavanje lica.",
+    },
+    {
+      icon: Wrench,
+      title: "Protetika",
+      description: "Kompletna protetička rješenja uključujući mostove, parcijalne i totalne proteze za vraćanje funkcije i estetike.",
     },
     {
       icon: Sparkles,
@@ -57,11 +62,6 @@ const Services = () => {
       icon: Link,
       title: "Frenektomija",
       description: "Hirurško uklanjanje ili korekcija frenuluma za poboljšanje pokretljivosti jezika ili usana i prevenciju ortodontskih problema.",
-    },
-    {
-      icon: Wrench,
-      title: "Protetika",
-      description: "Kompletna protetička rješenja uključujući mostove, parcijalne i totalne proteze za vraćanje funkcije i estetike.",
     },
   ];
 
