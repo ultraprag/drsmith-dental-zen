@@ -2,18 +2,11 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 
 // Import your images
-import izbjeljivanjeImage from "@/assets/izbjeljivanje.jpg";
 import protetikaImage from "@/assets/protetika.jpg";
 import protetika2Image from "@/assets/protetika2.jpg";
 
 const PastWork = () => {
   const works = [
-    {
-      title: "Ordinacijsko izbjeljivanje zuba",
-      description:
-        "Profesionalni tretman izbjeljivanja u ordinaciji za vidljivo svjetlije zube već nakon prvog posjeta. Sigurno i efikasno rješenje za blistav osmijeh.",
-      image: izbjeljivanjeImage,
-    },
     {
       title: "Metalokeramičke krunice",
       description:
