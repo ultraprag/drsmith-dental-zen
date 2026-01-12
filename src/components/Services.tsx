@@ -16,6 +16,16 @@ const Services = () => {
       description: "Sveobuhvatni stomatološki pregledi i čišćenja za održavanje optimalnog oralnog zdravlja.",
     },
     {
+      icon: Scissors,
+      title: "Hirurške Intervencije",
+      description: "Stručni hirurški zahvati uključujući vađenje zuba, operacije impaktiranih zuba i koštane augmentacije.",
+    },
+    {
+      icon: Crown,
+      title: "Zubna Protetika",
+      description: "Visokokvalitetne cirkon i metalokeramičke krunice za savršenu estetiku i dugotrajnost.",
+    },
+    {
       icon: Sparkles,
       title: "Izbjeljivanje Zuba",
       description: "Profesionalni tretmani izbjeljivanja za svjetliji, samopouzdaniji osmijeh.",
@@ -29,16 +39,6 @@ const Services = () => {
       icon: AlertCircle,
       title: "Hitna Pomoć",
       description: "Brzi tretman za stomatološke hitne slučajeve, uključujući termine istog dana.",
-    },
-    {
-      icon: Scissors,
-      title: "Hirurške Intervencije",
-      description: "Stručni hirurški zahvati uključujući vađenje zuba, operacije impaktiranih zuba i koštane augmentacije.",
-    },
-    {
-      icon: Crown,
-      title: "Zubna Protetika",
-      description: "Visokokvalitetne cirkon i metalokeramičke krunice za savršenu estetiku i dugotrajnost.",
     },
   ];
 
