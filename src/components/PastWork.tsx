@@ -1,28 +1,23 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 
 // Import your images
-import anteriorBefore from "@/assets/38686.jpg";
-import anteriorAfter from "@/assets/30088.jpg";
+import izbjeljivanjeImage from "@/assets/izbjeljivanje.jpg";
 import protetikaImage from "@/assets/protetika.jpg";
 
 const PastWork = () => {
   const works = [
     {
-      title: "Krunice",
+      title: "Ordinacijsko izbjeljivanje zuba",
       description:
-        "Transformacija postignuta korišćenjem Emax krunica i faseta, vraćajući prirodnu boju, simetriju i harmoniju desni.",
-      before: anteriorBefore,
-      after: anteriorAfter,
-      type: "slider" as const,
+        "Profesionalni tretman izbjeljivanja u ordinaciji za vidljivo svjetlije zube već nakon prvog posjeta. Sigurno i efikasno rješenje za blistav osmijeh.",
+      image: izbjeljivanjeImage,
     },
     {
       title: "Protetika",
       description:
         "Povratak prirodnom osmehu uz nežnu i preciznu stomatološku intervenciju, naglašavajući zdravlje i estetiku zuba.",
       image: protetikaImage,
-      type: "single" as const,
     },
   ];
 
@@ -40,7 +35,7 @@ const PastWork = () => {
           </p>
         </div>
 
-        {/* Grid Layout for Before/After Cases */}
+        {/* Grid Layout for Cases */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {works.map((work, index) => (
             <Card
@@ -48,21 +43,17 @@ const PastWork = () => {
               className="border-none shadow-lg overflow-hidden hover:shadow-xl transition-shadow bg-background/90 backdrop-blur-sm"
             >
               <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4">
-                {/* Before/After Slider or Single Image */}
+                {/* Image */}
                 <div className="rounded-xl md:rounded-2xl overflow-hidden shadow-md ring-1 ring-border/20">
-                  {work.type === "slider" ? (
-                    <BeforeAfterSlider before={work.before!} after={work.after!} />
-                  ) : (
-                    <img 
-                      src={work.image} 
-                      alt={work.title} 
-                      className="w-full h-auto object-cover"
-                    />
-                  )}
+                  <img 
+                    src={work.image} 
+                    alt={work.title} 
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
 
-                {/* Case Info */}
-                <div className="space-y-1 md:space-y-2">
+                {/* Case Info - Centered */}
+                <div className="space-y-1 md:space-y-2 text-center">
                   <h3 className="text-xl md:text-2xl font-semibold text-foreground">
                     {work.title}
                   </h3>
