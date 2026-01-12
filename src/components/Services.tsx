@@ -1,4 +1,4 @@
-import { CheckCircle, Sparkles, Smile, AlertCircle, Scissors, Crown } from "lucide-react";
+import { CheckCircle, Sparkles, Smile, AlertCircle, Scissors, Crown, Stethoscope, ScanLine, Box, Syringe } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -39,6 +39,26 @@ const Services = () => {
       icon: AlertCircle,
       title: "Hitna Pomoć",
       description: "Brzi tretman za stomatološke hitne slučajeve, uključujući termine istog dana.",
+    },
+    {
+      icon: Stethoscope,
+      title: "Dijagnostika",
+      description: "Detaljna dijagnostička procjena za precizno utvrđivanje stanja zuba i planiranje tretmana.",
+    },
+    {
+      icon: ScanLine,
+      title: "OPT Snimak",
+      description: "Panoramski rendgenski snimak za kompletni pregled vilice, zuba i okolnih struktura.",
+    },
+    {
+      icon: Box,
+      title: "3D Snimanje",
+      description: "Napredna CBCT tehnologija za trodimenzionalni prikaz i precizno planiranje implantata i operacija.",
+    },
+    {
+      icon: Syringe,
+      title: "Apikotomija",
+      description: "Hirurški zahvat uklanjanja vrha korijena zuba za očuvanje zuba i eliminaciju infekcije.",
     },
   ];
 
