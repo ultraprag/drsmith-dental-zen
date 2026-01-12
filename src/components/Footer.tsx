@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 import Logo from "./Logo";
 
 const Footer = () => {
@@ -25,15 +25,6 @@ const Footer = () => {
               aria-label="Instagram"
             >
               <Instagram className="w-4 h-4 md:w-5 md:h-5 text-primary" />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-9 h-9 md:w-10 md:h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter className="w-4 h-4 md:w-5 md:h-5 text-primary" />
             </a>
           </div>
           <p className="text-muted-foreground text-center text-sm md:text-base">
