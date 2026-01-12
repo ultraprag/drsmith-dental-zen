@@ -89,7 +89,8 @@ const Contact = () => {
                     <h3 className="font-semibold mb-1 text-sm md:text-base">Adresa</h3>
                     <p className="text-muted-foreground text-sm md:text-base">
                       Svetog Sava <br />
-                      Zvornik 75400, Bosna a Hercegovina
+                      Zvornik 75400, Bosna i Hercegovina <br />
+                      <span className="text-xs md:text-sm">(Ispod restorana Avala/Kod autobuske stanice)</span>
                     </p>
                   </div>
                 </div>
