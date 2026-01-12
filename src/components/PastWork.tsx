@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // Import your images
 import izbjeljivanjeImage from "@/assets/izbjeljivanje.jpg";
 import protetikaImage from "@/assets/protetika.jpg";
+import protetika2Image from "@/assets/protetika2.jpg";
 
 const PastWork = () => {
   const works = [
@@ -18,6 +19,12 @@ const PastWork = () => {
       description:
         "Kvalitetne metalokeramičke krunice koje kombinuju čvrstinu metalne osnove sa estetikom keramike za dugotrajan i prirodan izgled zuba.",
       image: protetikaImage,
+    },
+    {
+      title: "Protetika",
+      description:
+        "Kompletna protetička rehabilitacija za vraćanje funkcije i estetike zuba. Individualno prilagođena rješenja za svaki osmijeh.",
+      image: protetika2Image,
     },
   ];
 
