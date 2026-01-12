@@ -14,9 +14,9 @@ const PastWork = () => {
       image: izbjeljivanjeImage,
     },
     {
-      title: "Protetika",
+      title: "Metalokeramičke krunice",
       description:
-        "Povratak prirodnom osmehu uz nežnu i preciznu stomatološku intervenciju, naglašavajući zdravlje i estetiku zuba.",
+        "Kvalitetne metalokeramičke krunice koje kombinuju čvrstinu metalne osnove sa estetikom keramike za dugotrajan i prirodan izgled zuba.",
       image: protetikaImage,
     },
   ];
