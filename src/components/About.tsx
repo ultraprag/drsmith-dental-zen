@@ -9,7 +9,7 @@ const About = () => {
           {/* Left Column - Text */}
           <div className="space-y-6 md:space-y-8 max-w-lg mx-auto md:mx-0 text-center md:text-left animate-fade-slide-left">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-extrabold text-foreground leading-tight">
-              O Stomatološkoj Ordinaciji Mitrović
+              Dental Mitrović
             </h2>
             <p className="text-base md:text-xl text-muted-foreground leading-relaxed">
               Dr Mitrović, specijalista za oralnu implantologiju, sa preko 10 godina iskustva vodi naš posvećen tim predan pružanju izuzetne stomatološke njege u toplom, prijatnom okruženju.
