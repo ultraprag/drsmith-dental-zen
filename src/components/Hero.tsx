@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="space-y-6 md:space-y-8 max-w-lg mx-auto md:mx-0 text-center md:text-left animate-fade-slide-left">
             <div className="inline-block">
               <span className="bg-primary/10 text-primary px-4 md:px-5 py-2 rounded-full text-xs md:text-sm font-semibold animate-fade-in">
-                🏥 Specijalistička Ordinacija za Oralnu Hirurgiju
+                🚨 Hitna Stanja - DOLAZAK po pozivu!
               </span>
             </div>
 
