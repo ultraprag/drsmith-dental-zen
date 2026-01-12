@@ -5,8 +5,7 @@ import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 // Import your images
 import anteriorBefore from "@/assets/38686.jpg";
 import anteriorAfter from "@/assets/30088.jpg";
-import anteriorBefore1 from "@/assets/dobri_zubi.jpg";
-import anteriorAfter1 from "@/assets/losi_zubi.jpg";
+import protetikaImage from "@/assets/protetika.jpg";
 
 const PastWork = () => {
   const works = [
@@ -16,13 +15,14 @@ const PastWork = () => {
         "Transformacija postignuta korišćenjem Emax krunica i faseta, vraćajući prirodnu boju, simetriju i harmoniju desni.",
       before: anteriorBefore,
       after: anteriorAfter,
+      type: "slider" as const,
     },
     {
       title: "Protetika",
       description:
         "Povratak prirodnom osmehu uz nežnu i preciznu stomatološku intervenciju, naglašavajući zdravlje i estetiku zuba.",
-      before: anteriorBefore1,
-      after: anteriorAfter1,
+      image: protetikaImage,
+      type: "single" as const,
     },
   ];
 
@@ -48,9 +48,17 @@ const PastWork = () => {
               className="border-none shadow-lg overflow-hidden hover:shadow-xl transition-shadow bg-background/90 backdrop-blur-sm"
             >
               <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4">
-                {/* Before/After Slider */}
+                {/* Before/After Slider or Single Image */}
                 <div className="rounded-xl md:rounded-2xl overflow-hidden shadow-md ring-1 ring-border/20">
-                  <BeforeAfterSlider before={work.before} after={work.after} />
+                  {work.type === "slider" ? (
+                    <BeforeAfterSlider before={work.before!} after={work.after!} />
+                  ) : (
+                    <img 
+                      src={work.image} 
+                      alt={work.title} 
+                      className="w-full h-auto object-cover"
+                    />
+                  )}
                 </div>
 
                 {/* Case Info */}
