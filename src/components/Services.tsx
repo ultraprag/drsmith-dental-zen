@@ -27,7 +27,7 @@ const Services = () => {
     },
     {
       icon: Sparkles,
-      title: "Izbjeljivanje Zuba",
+      title: "Oralna Higijena i Izbjeljivanje Zuba",
       description: "Profesionalni tretmani izbjeljivanja za svjetliji, samopouzdaniji osmijeh.",
     },
     {
