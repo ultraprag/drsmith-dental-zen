@@ -1,4 +1,4 @@
-import { CheckCircle, Sparkles, Smile, AlertCircle, Scissors, Crown, Stethoscope, ScanLine, Box, Syringe } from "lucide-react";
+import { CheckCircle, Sparkles, Smile, AlertCircle, Scissors, Crown, Stethoscope, ScanLine, Box, Syringe, Link, Wrench } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Services = () => {
@@ -52,6 +52,16 @@ const Services = () => {
       icon: Syringe,
       title: "Apikotomija",
       description: "Hirurški zahvat uklanjanja vrha korijena zuba za očuvanje zuba i eliminaciju infekcije.",
+    },
+    {
+      icon: Link,
+      title: "Frenektomija",
+      description: "Hirurško uklanjanje ili korekcija frenuluma za poboljšanje pokretljivosti jezika ili usana i prevenciju ortodontskih problema.",
+    },
+    {
+      icon: Wrench,
+      title: "Protetika",
+      description: "Kompletna protetička rješenja uključujući mostove, parcijalne i totalne proteze za vraćanje funkcije i estetike.",
     },
   ];
 
