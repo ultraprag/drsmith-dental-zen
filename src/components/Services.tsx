@@ -57,7 +57,7 @@ const Services = () => {
         <Carousel
           opts={{
             align: "start",
-            loop: true,
+            loop: false,
           }}
           className="w-full"
         >
