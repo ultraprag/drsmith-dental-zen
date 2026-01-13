@@ -88,8 +88,8 @@ const Hero = () => {
                   <Users className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground text-base md:text-lg">500+</div>
-                  <div className="text-xs md:text-sm text-muted-foreground">Uspješnih Operacija</div>
+                  <div className="font-semibold text-foreground text-base md:text-lg">3000+</div>
+                  <div className="text-xs md:text-sm text-muted-foreground">Hirurških Zahvata</div>
                 </div>
               </div>
               <div className="flex items-center gap-3 hover:-translate-y-1 transition-transform duration-300">
@@ -133,7 +133,7 @@ const Hero = () => {
 
             {/* Specialty badge - adjusted for mobile */}
             <div className="absolute -bottom-4 -left-2 md:-bottom-6 md:-left-6 bg-primary text-primary-foreground p-4 md:p-6 rounded-xl md:rounded-2xl shadow-xl animate-bounce-slow">
-              <div className="text-2xl md:text-4xl font-bold">200+</div>
+              <div className="text-2xl md:text-4xl font-bold">500+</div>
               <div className="text-xs md:text-sm">Ugrađenih Implantata</div>
             </div>
 

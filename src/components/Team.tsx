@@ -21,7 +21,7 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: "Dr Željka Milovanović",
+    name: "Dr Željka Mihajlović",
     role: "Stomatolog",
     description: "Diplomirala na Stomatološkom fakultetu Univerziteta u Beogradu 2018. godine, sa posebnim interesovanjem za savremene estetske i restaurativne tretmane. Kontinuirano pohađa stručne kurseve i kongrese, kako bi svojim pacijentima pružila najbezbolniju i najsavremeniju negu osmeha.",
     image: zeljkaMilovanovic,
@@ -32,6 +32,20 @@ const teamMembers = [
     role: "Stomatolog",
     description: "Diplomirala na Stomatološkom fakultetu 2024. godine, donoseći svež pogled i najsavremenije znanje u praksu. Njena mladost i entuzijazam kombinovani su sa pažljivim pristupom i posvećenošću svakom pacijentu, čineći svaku posetu prijatnim iskustvom.",
     image: aleksandraMilovanovic,
+  },
+  {
+    id: 5,
+    name: "Dr Branislav Maćanović",
+    role: "Ortodont",
+    description: "Konsultant.",
+    image: null,
+  },
+  {
+    id: 6,
+    name: "Dr Svetozar Mitrović",
+    role: "Konsultant za estetiku",
+    description: "",
+    image: null,
   },
 ];
 
