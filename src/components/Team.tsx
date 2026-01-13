@@ -4,7 +4,7 @@ import acoMitrovic from "@/assets/aco-mitrovic.jpg";
 import dragoMitrovic from "@/assets/drago-mitrovic.jpg";
 import zeljkaMilovanovic from "@/assets/zeljka-milovanovic.jpg";
 import aleksandraMilovanovic from "@/assets/aleksandra-milovanovic.jpg";
-import svetozarMitrovic from "@/assets/svetozar-mitrovic.png";
+import svetozarMitrovic from "@/assets/svetozar-mitrovic-new.jpg";
 import branislavMacanovic from "@/assets/branislav-macanovic.jpg";
 import { useScrollAnimation, fadeInUp, staggerContainer } from "@/hooks/useScrollAnimation";
 
