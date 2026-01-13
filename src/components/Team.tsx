@@ -32,7 +32,7 @@ const teamMembers = [
     name: "Dr Aleksandra Milovanović",
     role: "Stomatolog",
     description: "Diplomirala na Stomatološkom fakultetu 2024. godine, donoseći svež pogled i najsavremenije znanje u praksu. Njena mladost i entuzijazam kombinovani su sa pažljivim pristupom i posvećenošću svakom pacijentu, čineći svaku posetu prijatnim iskustvom.",
-    image: zeljkaMilovanovic,
+    image: aleksandraMilovanovic,
   },
   {
     id: 5,
