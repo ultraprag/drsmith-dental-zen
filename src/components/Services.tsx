@@ -1,7 +1,11 @@
 import { CheckCircle, Sparkles, Smile, AlertCircle, Scissors, Crown, Stethoscope, ScanLine, Box, Syringe, Link, Wrench } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { motion } from "framer-motion";
+import { useScrollAnimation, fadeInUp, staggerContainer } from "@/hooks/useScrollAnimation";
 
 const Services = () => {
+  const { ref, controls } = useScrollAnimation();
+
   const services = [
     {
       icon: CheckCircle,
@@ -68,31 +72,44 @@ const Services = () => {
   return (
     <section id="services" className="py-12 md:py-20">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-8 md:mb-12">
+        <motion.div 
+          ref={ref}
+          initial="hidden"
+          animate={controls}
+          variants={fadeInUp}
+          className="text-center mb-8 md:mb-12"
+        >
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 md:mb-4">
             Naše Usluge
           </h2>
           <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Sveobuhvatna stomatološka njega prilagođena vašim potrebama
           </p>
-        </div>
+        </motion.div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <motion.div 
+          initial="hidden"
+          animate={controls}
+          variants={staggerContainer}
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6"
+        >
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow h-full">
-                <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4 h-full flex flex-col">
-                  <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-xl md:rounded-2xl flex items-center justify-center shrink-0">
-                    <Icon className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-                  </div>
-                  <h3 className="text-base md:text-xl font-semibold">{service.title}</h3>
-                  <p className="text-sm md:text-base text-muted-foreground flex-grow">{service.description}</p>
-                </CardContent>
-              </Card>
+              <motion.div key={index} variants={fadeInUp}>
+                <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 h-full hover:-translate-y-1">
+                  <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4 h-full flex flex-col">
+                    <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-xl md:rounded-2xl flex items-center justify-center shrink-0">
+                      <Icon className="w-6 h-6 md:w-8 md:h-8 text-primary" />
+                    </div>
+                    <h3 className="text-base md:text-xl font-semibold">{service.title}</h3>
+                    <p className="text-sm md:text-base text-muted-foreground flex-grow">{service.description}</p>
+                  </CardContent>
+                </Card>
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
