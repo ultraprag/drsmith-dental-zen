@@ -25,14 +25,14 @@ const teamMembers = [
     name: "Dr Željka Mihajlović",
     role: "Stomatolog",
     description: "Diplomirala na Stomatološkom fakultetu Univerziteta u Beogradu 2018. godine, sa posebnim interesovanjem za savremene estetske i restaurativne tretmane. Kontinuirano pohađa stručne kurseve i kongrese, kako bi svojim pacijentima pružila najbezbolniju i najsavremeniju negu osmeha.",
-    image: zeljkaMilovanovic,
+    image: aleksandraMilovanovic,
   },
   {
     id: 4,
     name: "Dr Aleksandra Milovanović",
     role: "Stomatolog",
     description: "Diplomirala na Stomatološkom fakultetu 2024. godine, donoseći svež pogled i najsavremenije znanje u praksu. Njena mladost i entuzijazam kombinovani su sa pažljivim pristupom i posvećenošću svakom pacijentu, čineći svaku posetu prijatnim iskustvom.",
-    image: aleksandraMilovanovic,
+    image: zeljkaMilovanovic,
   },
   {
     id: 5,
