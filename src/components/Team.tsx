@@ -1,5 +1,4 @@
 import { User } from "lucide-react";
-import acoMitrovic from "@/assets/aco-mitrovic.jpg";
 
 const teamMembers = [
   {
@@ -7,7 +6,7 @@ const teamMembers = [
     name: "Dr Aleksandar Mitrović",
     role: "Specijalista oralne hirurgije",
     description: "Kratki opis doktora i njegove stručnosti.",
-    image: acoMitrovic,
+    image: null,
   },
   {
     id: 2,
