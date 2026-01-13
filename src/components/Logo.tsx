@@ -21,7 +21,7 @@ const Logo = ({ variant = "horizontal", className = "" }: LogoProps) => {
         </div>
         <div className="text-center">
           <div className="font-semibold text-foreground text-xs">Specijalistička stomatološka</div>
-          <div className="font-semibold text-foreground text-xs">ordinacija Dental Mitrović</div>
+          <div className="font-semibold text-foreground text-xs">ordinacija Mitrović Dental</div>
         </div>
       </div>
     );
@@ -41,7 +41,7 @@ const Logo = ({ variant = "horizontal", className = "" }: LogoProps) => {
       </div>
       <div className="flex flex-col">
         <span className="font-semibold text-foreground leading-tight text-sm">Specijalistička stomatološka</span>
-        <span className="font-semibold text-foreground leading-tight text-sm">ordinacija Dental Mitrović</span>
+        <span className="font-semibold text-foreground leading-tight text-sm">ordinacija Mitrović Dental</span>
       </div>
     </div>
   );

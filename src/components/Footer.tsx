@@ -28,7 +28,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-muted-foreground text-center text-sm md:text-base">
-            © 2025 Dr. Mitrović Stomatološka Ordinacija. Sva prava zadržana.
+            © 2025 Mitrović Dental - Specijalistička stomatološka ordinacija. Sva prava zadržana.
           </p>
         </div>
       </div>
