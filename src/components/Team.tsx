@@ -1,7 +1,7 @@
 import { User } from "lucide-react";
 import acoMitrovic from "@/assets/aco-mitrovic.jpg";
 import dragoMitrovic from "@/assets/drago-mitrovic.jpg";
-
+import zeljkaMilovanovic from "@/assets/zeljka-milovanovic.jpg";
 import aleksandraMilovanovic from "@/assets/aleksandra-milovanovic.jpg";
 import svetozarMitrovic from "@/assets/svetozar-mitrovic.png";
 
@@ -25,7 +25,7 @@ const teamMembers = [
     name: "Dr Željka Mihajlović",
     role: "Stomatolog",
     description: "Diplomirala na Stomatološkom fakultetu Univerziteta u Beogradu 2018. godine, sa posebnim interesovanjem za savremene estetske i restaurativne tretmane. Kontinuirano pohađa stručne kurseve i kongrese, kako bi svojim pacijentima pružila najbezbolniju i najsavremeniju negu osmeha.",
-    image: null,
+    image: zeljkaMilovanovic,
   },
   {
     id: 4,
