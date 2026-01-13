@@ -9,7 +9,7 @@ const teamMembers = [
     id: 1,
     name: "Dr Aleksandar Mitrović",
     role: "Specijalista oralne hirurgije",
-    description: "Završio stomatološki fakultet u Novom Sadu 2017. godine. Specijalizaciju iz oralne hirurgije upisuje 2018. godine, a zvanje specijaliste oralne hirurgije stiče 2023. godine.",
+    description: "Diplomirao na Stomatološkom fakultetu u Novom Sadu 2017. godine, nakon čega je nastavio specijalizaciju iz oralne hirurgije koju je započeo 2018. godine. Zvanje specijaliste oralne hirurgije stekao je 2023. godine. Kao vođa tima, spaja tehničku preciznost sa empatičnim pristupom, specijalizujući se za kompleksne hirurške intervencije, implantologiju i lečenje složenih slučajeva sa ciljem da svakom pacijentu obezbedi siguran i uspešan tretman.",
     image: acoMitrovic,
   },
   {
