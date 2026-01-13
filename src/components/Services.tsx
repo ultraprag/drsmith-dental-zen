@@ -45,7 +45,7 @@ const Services = () => {
     {
       icon: Stethoscope,
       title: "Dijagnostika",
-      description: "Detaljna dijagnostička procjena za precizno utvrđivanje stanja zuba i planiranje tretmana.",
+      description: "Detaljna dijagnostička procjena uključujući pojedinačno snimanje zuba za precizno utvrđivanje stanja i planiranje tretmana.",
     },
     {
       icon: ScanLine,
