@@ -12,6 +12,8 @@ import Appointment from "@/components/Appointment";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import PastWork from "@/components/PastWork";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import StickyMobileCTA from "@/components/StickyMobileCTA";
 
 // Import local CSS (make sure index.css is in the same folder)
 import "@/index.css";
@@ -30,6 +32,8 @@ const Index = () => {
       <Appointment />
       <Contact />
       <Footer />
+      <FloatingWhatsApp />
+      <StickyMobileCTA />
     </div>
   );
 };

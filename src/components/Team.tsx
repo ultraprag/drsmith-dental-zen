@@ -73,8 +73,9 @@ const Team = () => {
                 {member.image ? (
                   <img
                     src={member.image}
-                    alt={member.name}
+                    alt={`${member.name} - ${member.role} u Dental Mitrović`}
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 ) : (
                   <div className="flex flex-col items-center justify-center text-muted-foreground">

@@ -48,8 +48,9 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
               <img
                 src={teamPhoto}
-                alt="Dr. Mitrović"
+                alt="Dr. Mitrović - Specijalistička stomatološka ordinacija Dental Mitrović"
                 className="w-full h-[300px] sm:h-[400px] md:h-[550px] object-cover"
+                loading="lazy"
               />
             </div>
           </div>
