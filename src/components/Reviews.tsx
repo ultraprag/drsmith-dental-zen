@@ -50,7 +50,7 @@ const Reviews = () => {
           
           {/* Google Rating Badge */}
           <a 
-            href="https://www.google.com/search?hl=sr&sxsrf=ANbL-n5OJfTN-vlT1SXViPgqKoevqdv23A:1768318823851&q=Stomatolo%C5%A1ka+ordinacija+Mitrovi%C4%87+%D0%A0%D0%B5%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%98%D0%B5&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDU0sTAwNTQ1MDQyNjM2NLc0sNjAyPiK0TS4JD83sSQ_J__owuxEhfyilMy8xOTMrEQF38ySovyyzCPtChcWXNh6se3C1gt7L2y_sOPijAtbF7GSpw8A1UKoZYsAAAA&rldimm=15148051501236317908&tbm=lcl&aic=0#lkt=LocalPoiReviews"
+            href="https://www.google.com/search?q=Stomatolo%C5%A1ka%20ordinacija%20Mitrovi%C4%87%20%D0%A0%D0%B5%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%98%D0%B5&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDU0sTAwNTQ1MDQyNjM2NLc0sNjAyPiK0TS4JD83sSQ_J__owuxEhfyilMy8xOTMrEQF38ySovyyzCPtChcWXNh6se3C1gt7L2y_sOPijAtbF7GSpw8A1UKoZYsAAAA&rldimm=15148051501236317908&tbm=lcl&hl=sr&aic=0#lkt=LocalPoiReviews"
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white border border-border rounded-full px-5 py-3 shadow-md hover:shadow-lg transition-shadow"
