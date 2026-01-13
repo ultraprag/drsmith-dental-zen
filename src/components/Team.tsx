@@ -90,24 +90,24 @@ const Team = () => {
             className="mb-12 md:mb-16"
           >
             <div className="max-w-4xl mx-auto bg-gradient-to-br from-primary/5 via-card to-primary/5 rounded-3xl overflow-hidden shadow-2xl border border-primary/20 relative">
-              {/* Lead badge */}
-              <div className="absolute top-4 right-4 md:top-6 md:right-6 z-10">
-                <div className="bg-primary text-primary-foreground px-3 py-1.5 md:px-4 md:py-2 rounded-full flex items-center gap-2 shadow-lg">
-                  <Star className="w-4 h-4 fill-current" />
-                  <span className="text-xs md:text-sm font-semibold">Vođa Tima</span>
-                </div>
-              </div>
-              
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                 {/* Image */}
-                <div className="aspect-square md:aspect-auto relative overflow-hidden">
+                <div className="relative overflow-hidden h-[300px] sm:h-[350px] md:h-auto md:min-h-[400px]">
                   <img
                     src={leadDoctor.image}
                     alt={`${leadDoctor.name} - ${leadDoctor.role} u Mitrović Dental`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent md:bg-gradient-to-r md:from-transparent md:to-card/20" />
+                  
+                  {/* Lead badge - on image for mobile */}
+                  <div className="absolute top-4 right-4 z-10">
+                    <div className="bg-primary text-primary-foreground px-3 py-1.5 md:px-4 md:py-2 rounded-full flex items-center gap-2 shadow-lg">
+                      <Star className="w-4 h-4 fill-current" />
+                      <span className="text-xs md:text-sm font-semibold">Vođa Tima</span>
+                    </div>
+                  </div>
                 </div>
                 
                 {/* Content */}
@@ -121,22 +121,6 @@ const Team = () => {
                   <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                     {leadDoctor.description}
                   </p>
-                  
-                  {/* Stats */}
-                  <div className="mt-6 flex gap-6">
-                    <div className="text-center">
-                      <div className="text-2xl md:text-3xl font-bold text-primary">500+</div>
-                      <div className="text-xs md:text-sm text-muted-foreground">Implantata</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-2xl md:text-3xl font-bold text-primary">3000+</div>
-                      <div className="text-xs md:text-sm text-muted-foreground">Zahvata</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-2xl md:text-3xl font-bold text-primary">10+</div>
-                      <div className="text-xs md:text-sm text-muted-foreground">God. iskustva</div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
