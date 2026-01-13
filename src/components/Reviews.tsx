@@ -50,7 +50,7 @@ const Reviews = () => {
           
           {/* Google Rating Badge */}
           <a 
-            href="https://search.google.com/local/writereview?placeid=ChIJe9xsCr5pWUcR1G6DIpWwONI"
+            href="https://share.google/QcURzzPCtQN5mD0A7"
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white border border-border rounded-full px-5 py-3 shadow-md hover:shadow-lg transition-shadow"
