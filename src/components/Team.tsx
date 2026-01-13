@@ -35,7 +35,7 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: "Dr Branislav Maćanović",
+    name: "Dr Branislav Macanović",
     role: "Ortodont",
     description: "Konsultant.",
     image: null,
