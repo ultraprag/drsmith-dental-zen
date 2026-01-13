@@ -1,8 +1,5 @@
 import { User } from "lucide-react";
 import acoMitrovic from "@/assets/aco-mitrovic.jpg";
-import dragoMitrovic from "@/assets/drago-mitrovic.jpg";
-import zeljkaMilovanovic from "@/assets/zeljka-milovanovic.jpg";
-import aleksandraMilovanovic from "@/assets/aleksandra-milovanovic.jpg";
 
 const teamMembers = [
   {
@@ -17,21 +14,21 @@ const teamMembers = [
     name: "Dr Dragoljub Mitrović",
     role: "Stomatolog",
     description: "Stomatološki fakultet završio u Sarajevu 1979. godine. Jedan od osnivača naše ordinacije.",
-    image: dragoMitrovic,
+    image: null,
   },
   {
     id: 3,
-    name: "Željka Milovanović",
+    name: "Dr Željka Milovanović",
     role: "Stomatolog",
     description: "Fakultet završila 2018. u Beogradu. U našoj ordinaciji radi već 6 godina.",
-    image: zeljkaMilovanovic,
+    image: null,
   },
   {
     id: 4,
-    name: "Aleksandra Milovanović",
+    name: "Dr Aleksandra Milovanović",
     role: "Stomatolog",
     description: "Fakultet završila 2024. godine. Zaposlena u našoj ordinaciji već 2 godine.",
-    image: aleksandraMilovanovic,
+    image: null,
   },
 ];
 
