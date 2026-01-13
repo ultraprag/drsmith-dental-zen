@@ -5,6 +5,7 @@ import dragoMitrovic from "@/assets/drago-mitrovic.jpg";
 import zeljkaMilovanovic from "@/assets/zeljka-milovanovic.jpg";
 import aleksandraMilovanovic from "@/assets/aleksandra-milovanovic.jpg";
 import svetozarMitrovic from "@/assets/svetozar-mitrovic.png";
+import branislavMacanovic from "@/assets/branislav-macanovic.jpg";
 import { useScrollAnimation, fadeInUp, staggerContainer } from "@/hooks/useScrollAnimation";
 
 const teamMembers = [
@@ -45,7 +46,7 @@ const teamMembers = [
     name: "Dr Branislav Macanović",
     role: "Ortodont",
     description: "Specijalizovan za ortodonciju, naš konsultant za kompleksne slučajeve poravnanja zuba i korekcije zagrižaja. Sa dubinskim znanjem u modernim ortodontskim tehnikama, pruža stručne savete i tretmane koji transformišu osmehe pacijenata svih uzrasta. Njegova preciznost i posvećenost individualnim potrebama čine ga pouzdanim partnerom u postizanju savršeno poravnatog i funkcionalnog osmeha.",
-    image: null,
+    image: branislavMacanovic,
     isLead: false,
   },
   {
