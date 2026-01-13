@@ -15,7 +15,7 @@ const AppointmentConfirmation = () => {
           Termin Potvrđen!
         </h1>
         <p className="text-xl text-muted-foreground">
-          Hvala što ste zakazali termin u Dr. Smith Stomatološkoj Ordinaciji. Poslali smo vam email sa svim detaljima.
+          Hvala što ste zakazali termin u Mitrović Dental. Poslali smo vam email sa svim detaljima.
         </p>
         <p className="text-muted-foreground">
           Radujemo se što ćemo vas uskoro videti!
