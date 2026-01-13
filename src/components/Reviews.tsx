@@ -50,7 +50,7 @@ const Reviews = () => {
           
           {/* Google Rating Badge */}
           <a 
-            href="https://g.page/r/YOUR_GOOGLE_PLACE_ID/review" 
+            href="https://www.google.com/search?hl=sr&sxsrf=ANbL-n5OJfTN-vlT1SXViPgqKoevqdv23A:1768318823851&q=Stomatolo%C5%A1ka+ordinacija+Mitrovi%C4%87+%D0%A0%D0%B5%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%98%D0%B5&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDU0sTAwNTQ1MDQyNjM2NLc0sNjAyPiK0TS4JD83sSQ_J__owuxEhfyilMy8xOTMrEQF38ySovyyzCPtChcWXNh6se3C1gt7L2y_sOPijAtbF7GSpw8A1UKoZYsAAAA&rldimm=15148051501236317908&tbm=lcl&aic=0#lkt=LocalPoiReviews"
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white border border-border rounded-full px-5 py-3 shadow-md hover:shadow-lg transition-shadow"
@@ -62,7 +62,7 @@ const Reviews = () => {
               <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
             </svg>
             <div className="flex items-center gap-2">
-              <span className="text-lg font-bold text-foreground">4.9</span>
+              <span className="text-lg font-bold text-foreground">4.8</span>
               <div className="flex gap-0.5">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
