@@ -9,7 +9,7 @@ const teamMembers = [
     id: 1,
     name: "Dr Aleksandar Mitrović",
     role: "Specijalista oralne hirurgije",
-    description: "Kratki opis doktora i njegove stručnosti.",
+    description: "Rođen u Zvorniku 1991. godine, gdje je odrastao i gdje i dalje živi. Završio stomatološki fakultet u Novom Sadu 2017. godine. Specijalizaciju iz oralne hirurgije upisuje 2018. godine, a zvanje specijaliste oralne hirurgije stiče 2023. godine. Specijalistički staž je obavljao na Vojnomedicinskoj akademiji u Beogradu i Stomatološkom fakultetu u Kragujevcu.",
     image: acoMitrovic,
   },
   {
