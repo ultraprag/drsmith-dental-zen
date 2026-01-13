@@ -12,7 +12,7 @@ import Appointment from "@/components/Appointment";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import PastWork from "@/components/PastWork";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import FloatingSocial from "@/components/FloatingSocial";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
 
 // Import local CSS (make sure index.css is in the same folder)
@@ -32,7 +32,7 @@ const Index = () => {
       <Appointment />
       <Contact />
       <Footer />
-      <FloatingWhatsApp />
+      <FloatingSocial />
       <StickyMobileCTA />
     </div>
   );
