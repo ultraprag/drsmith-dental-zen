@@ -102,7 +102,7 @@ const Team = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent md:bg-gradient-to-r md:from-transparent md:to-card/20" />
                   
                   {/* Lead badge - on image for mobile */}
-                  <div className="absolute top-4 right-4 z-10">
+                  <div className="absolute top-4 left-4 z-10">
                     <div className="bg-primary text-primary-foreground px-3 py-1.5 md:px-4 md:py-2 rounded-full flex items-center gap-2 shadow-lg">
                       <Star className="w-4 h-4 fill-current" />
                       <span className="text-xs md:text-sm font-semibold">Vođa Tima</span>
