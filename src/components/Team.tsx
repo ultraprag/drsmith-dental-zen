@@ -3,6 +3,7 @@ import acoMitrovic from "@/assets/aco-mitrovic.jpg";
 import dragoMitrovic from "@/assets/drago-mitrovic.jpg";
 import zeljkaMilovanovic from "@/assets/zeljka-milovanovic.jpg";
 import aleksandraMilovanovic from "@/assets/aleksandra-milovanovic.jpg";
+import svetozarMitrovic from "@/assets/svetozar-mitrovic.png";
 
 const teamMembers = [
   {
@@ -37,15 +38,15 @@ const teamMembers = [
     id: 5,
     name: "Dr Branislav Macanović",
     role: "Ortodont",
-    description: "Konsultant.",
+    description: "Specijalizovan za ortodonciju, naš konsultant za kompleksne slučajeve poravnanja zuba i korekcije zagrižaja. Sa dubinskim znanjem u modernim ortodontskim tehnikama, pruža stručne savete i tretmane koji transformišu osmehe pacijenata svih uzrasta. Njegova preciznost i posvećenost individualnim potrebama čine ga pouzdanim partnerom u postizanju savršeno poravnatog i funkcionalnog osmeha.",
     image: null,
   },
   {
     id: 6,
     name: "Dr Svetozar Mitrović",
     role: "Konsultant za estetiku",
-    description: "",
-    image: null,
+    description: "Doktor medicine sa specijalizovanom edukacijom iz oblasti estetske medicine. Njegova stručnost nadilazi tradicionalnu stomatologiju, omogućavajući celovit pristup lepoti osmeha kroz harmoniju funkcionalnosti i estetike. Kontinuiranim usavršavanjem u najsavremenijim tehnikama, pomaže pacijentima da postignu prirodan, blistav osmeh koji odražava njihovu unutrašnju lepotu i samopouzdanje.",
+    image: svetozarMitrovic,
   },
 ];
 
