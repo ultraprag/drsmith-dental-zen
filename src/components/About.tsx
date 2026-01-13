@@ -9,7 +9,7 @@ const About = () => {
           {/* Left Column - Text */}
           <div className="space-y-6 md:space-y-8 max-w-lg mx-auto md:mx-0 text-center md:text-left animate-fade-slide-left">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-extrabold text-foreground leading-tight">
-              Dental Mitrović
+              Mitrović Dental
             </h2>
             <p className="text-base md:text-xl text-muted-foreground leading-relaxed">
               Dr Mitrović, specijalista oralne hirurgije, sa preko 10 godina iskustva vodi naš posvećen tim predan pružanju izuzetne stomatološke njege u toplom, prijatnom okruženju.
@@ -48,7 +48,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
               <img
                 src={teamPhoto}
-                alt="Dr. Mitrović - Specijalistička stomatološka ordinacija Dental Mitrović"
+                alt="Dr. Mitrović - Specijalistička stomatološka ordinacija Mitrović Dental"
                 className="w-full h-[300px] sm:h-[400px] md:h-[550px] object-cover"
                 loading="lazy"
               />

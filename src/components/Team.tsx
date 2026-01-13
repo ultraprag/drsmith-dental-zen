@@ -73,7 +73,7 @@ const Team = () => {
                 {member.image ? (
                   <img
                     src={member.image}
-                    alt={`${member.name} - ${member.role} u Dental Mitrović`}
+                    alt={`${member.name} - ${member.role} u Mitrović Dental`}
                     className="w-full h-full object-cover"
                     loading="lazy"
                   />
