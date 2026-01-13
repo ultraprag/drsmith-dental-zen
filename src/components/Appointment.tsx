@@ -31,8 +31,8 @@ const Appointment = () => {
                     <Phone className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                   </div>
                   <p className="text-xl md:text-2xl font-semibold text-foreground">
-                    <a href="tel:+381645523882" className="hover:text-primary transition">
-                      +381 64 552 3882
+                    <a href="tel:+38765223310" className="hover:text-primary transition">
+                      +387 65 22 33 10
                     </a>
                   </p>
                 </div>
@@ -41,8 +41,8 @@ const Appointment = () => {
                     <Phone className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                   </div>
                   <p className="text-xl md:text-2xl font-semibold text-foreground">
-                    <a href="tel:+38765223310" className="hover:text-primary transition">
-                      +387 65 22 33 10
+                    <a href="tel:+381645523882" className="hover:text-primary transition">
+                      +381 64 552 3882
                     </a>
                   </p>
                 </div>
